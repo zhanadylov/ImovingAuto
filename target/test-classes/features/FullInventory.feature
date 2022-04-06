@@ -26,8 +26,8 @@ Feature: Full inventory
     And user should click add to inventory Dresser in Bedroom room
     And user should click add to inventory Bed in Bedroom room
     Then user clicks on save and go to next button
-    And user should click add to inventory Kitchen/Dining Chairs in Dining room
-    And user should click add to inventory Kitchen/Dining Table in Dining room
+    And user should click add to inventory Rug in Dining room
+    And user should click add to inventory Bench in Dining room
     Then user clicks on save and go to next button
     And user should click add to inventory Kitchen/Dining Chairs in Kitchen room
     And user should click add to inventory Kitchen/Dining Table in Kitchen room

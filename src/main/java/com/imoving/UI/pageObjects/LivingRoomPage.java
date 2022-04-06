@@ -22,7 +22,7 @@ public class LivingRoomPage {
 
     //For random select Items Living room
     @FindBy(xpath = "/html/body/div/div/div/div[1]/main/div/div[1]/section/div[2]/div")
-    public List<WebElement> navigateToItemsContainer;
+    public WebElement navigateToItemsContainer;
     @FindBy(css = "#body > div > div > div > div.shuffle-animation > main > div > div:nth-child(1) > section > div.itemsContainer > div >option")
     public int chooseItems;
 
@@ -32,9 +32,9 @@ public class LivingRoomPage {
     @FindBy(xpath = "/html/body/div/div/div/div[1]/main/div/div[1]/section/div[2]/div/div[1]/div/div/figure/div[2]/div[4]/div/a[1]")
     public WebElement addToInventorySofa;
 
-    @FindBy(xpath = "")
+    @FindBy(xpath = "/html/body/div/div/div/div[1]/main/div/div[1]/section/div[2]/div/div[2]/div/div/figure/img")
     public WebElement tvPicture;
-    @FindBy(xpath = "")
+    @FindBy(xpath = "/html/body/div/div/div/div[1]/main/div/div[1]/section/div[2]/div/div[2]/div/div/figure/div[2]/div[4]/div/a[1]")
     public WebElement addToInventoryTV;
 
 

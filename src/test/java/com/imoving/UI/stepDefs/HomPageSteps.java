@@ -71,7 +71,7 @@ public class HomPageSteps {
     @Then("User clicks on Continue")
     public void user_clicks_on_continue() {
         Helper.click(homePage.continueButton);
-        Helper.pause(3000);
+        Helper.pause(2000);
     }
 
     @Then("User should see recommended items list")

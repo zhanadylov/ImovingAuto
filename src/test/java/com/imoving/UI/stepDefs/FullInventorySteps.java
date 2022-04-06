@@ -3,12 +3,11 @@ package com.imoving.UI.stepDefs;
 import com.imoving.UI.methods.CustomAssertions;
 import com.imoving.UI.methods.Helper;
 import com.imoving.UI.methods.SelectRandom;
-import com.imoving.UI.pageObjects.FullInventoryPage;
-import com.imoving.UI.pageObjects.Hints;
-import com.imoving.UI.pageObjects.LivingRoomPage;
-import com.imoving.UI.pageObjects.TheseAreRecommendedRoomsForAPopUpText;
+import com.imoving.UI.pageObjects.*;
+import io.cucumber.java.After;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 
 public class FullInventorySteps {
@@ -16,6 +15,7 @@ public class FullInventorySteps {
     Hints hints = new Hints();
     FullInventoryPage fullInventoryPage = new FullInventoryPage();
     LivingRoomPage livingRoom = new LivingRoomPage();
+    BedRoomPage BedRoomPage = new BedRoomPage();
 
     @Then("User should see new pop-up window {string}")
     public void user_should_see_new_pop_up_window(String RecommendRoomText) {
@@ -56,33 +56,36 @@ public class FullInventorySteps {
     // Adding items. Living room
     @Then("user should click add to inventory Sofa in living room")
     public void user_should_click_add_to_inventory_sofa_in_living_room() {
-//        Helper.navigateToElement(livingRoom.sofaPicture);
-//        Helper.click(livingRoom.addToInventorySofa);
-        SelectRandom.randomChooseItems(livingRoom.navigateToItemsContainer,2);
-        Helper.pause(5000);
+        Helper.navigateToElement(livingRoom.sofaPicture);
+        Helper.click(livingRoom.addToInventorySofa);
     }
     @Then("user should click add to inventory TV in living room")
     public void user_should_click_add_to_inventory_tv_in_living_room() {
-
+        Helper.navigateToElement(livingRoom.tvPicture);
+        Helper.click(livingRoom.addToInventoryTV);
     }
     @Then("user clicks on save and go to next button")
     public void user_clicks_on_save_and_go_to_next_button() {
-
+        Helper.click(fullInventoryPage.SaveAndGoToNextButton);
     }
     @Then("user should click add to inventory Dresser in Bedroom room")
     public void user_should_click_add_to_inventory_dresser_in_bedroom_room() {
+//        Helper.navigateToElement(BedRoomPage.dresserPicture);
+//        Helper.click(BedRoomPage.addDresser);
+        Helper.navigateToElement(BedRoomPage.test);
+
 
     }
     @Then("user should click add to inventory Bed in Bedroom room")
     public void user_should_click_add_to_inventory_bed_in_bedroom_room() {
 
     }
-    @Then("user should click add to inventory Kitchen\\/Dining Chairs in Dining room")
-    public void user_should_click_add_to_inventory_kitchen_dining_chairs_in_dining_room() {
+    @Then("user should click add to inventory Rug in Dining room")
+    public void user_should_click_add_to_inventory_rug_in_dining_room() {
 
     }
-    @Then("user should click add to inventory Kitchen\\/Dining Table in Dining room")
-    public void user_should_click_add_to_inventory_kitchen_dining_table_in_dining_room() {
+    @Then("user should click add to inventory Bench in Dining room")
+    public void user_should_click_add_to_inventory_bench_in_dining_room() {
 
     }
     @Then("user should click add to inventory Kitchen\\/Dining Chairs in Kitchen room")

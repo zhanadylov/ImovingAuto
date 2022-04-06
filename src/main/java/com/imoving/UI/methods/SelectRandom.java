@@ -21,20 +21,28 @@ public class SelectRandom {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    //Work with selector
-    public static void SelectHomePage(WebElement element, int cssSelector){
-        Select select = new Select(element);
+    public static void randomChooseItems(List<WebElement> element, int numberItems){
+        logger.info("I'm trying to choose itemsыы");
         Random random = new Random();
-        int index = random.nextInt(cssSelector);
-        select.selectByIndex(index);
+        WebElement randomCheckbox;
+        for(int i = 0; i < numberItems; i++) {
+            randomCheckbox = element.get(new Random().nextInt(element.size()));
+//            Helper.click(randomCheckbox);
+//            System.out.println(randomCheckbox);
+
+        }
+//        List<WebElement> checkboxes = driver.findElements(By.cssSelector(".myCheckboxClass"));
+//        WebElement randomCheckbox = checkboxes.get(new Random().nextInt(list.size()));
     }
 
-    public static void randomChooseItems(List<WebElement> element, int numberItems){
-        logger.info("I'm trying to choose items");
-        Random random = new Random();
-        for(int i = 0; i < numberItems; i++) {
-            int item = random.nextInt(element.size());
-            Helper.click(element.get(item));
-        }
-    }
+//    public void clickonRandomCheckBox()
+//    {
+//        List<WebElement> checkboxes = driver.findElements(By.xpath("//input[@type='checkbox']"));
+//        Random ram = new random.nextInt(1,3);
+//        if(!checkboxes.get(ram).isSelected)
+//        {
+//            checkboxes.get(ram).click();
+//        }
+//    }
+
 }
