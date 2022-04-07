@@ -1,5 +1,6 @@
 package com.imoving.UI.pageObjects;
 
+import com.imoving.UI.methods.SelectRandom;
 import com.imoving.UI.utils.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -15,6 +16,8 @@ public class BedRoomPage {
     }
 
 //    public List<WebElement> test = Driver.getDriver().findElements(By.xpath("/html/body/div/div/div/div[1]/main/div/div[1]/section/div[2]/div"));
+    public List<WebElement> elements = Driver.getDriver().findElements(By.className("itemsContainer"));
+
 
     @FindBy(xpath = "/html/body/div/div/div/div[1]/main/div/div[1]/section/div[2]/div/div[1]/div/div/figure/img")
     public WebElement dresserPicture;
@@ -50,6 +53,8 @@ public class BedRoomPage {
 
     @FindBy(xpath = "/html/body/div/div/div/div[1]/main/div/div[1]/section/div[2]/div/div[1]/div/div/figure/div[2]/div[4]/div/a[1]")
     public WebElement addDresser;
+    @FindBy(linkText = "Add to Inventory")
+    public WebElement addBed;
 
     @FindBy(className = "quantity-buttons")
     public WebElement addInventory;

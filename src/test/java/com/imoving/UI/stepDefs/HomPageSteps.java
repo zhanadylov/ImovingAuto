@@ -3,12 +3,12 @@ package com.imoving.UI.stepDefs;
 import com.imoving.UI.dataProviders.ConfigReader;
 import com.imoving.UI.methods.DropdownHelper;
 import com.imoving.UI.methods.Helper;
+import com.imoving.UI.methods.SelectRandom;
 import com.imoving.UI.pageObjects.HomePage;
 import com.imoving.UI.utils.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
 
@@ -36,8 +36,8 @@ public class HomPageSteps {
     }
 
     @Given("User should choose {string} value in What are You moving? field")
-    public void user_should_choose_value_in_what_are_you_moving_field(String myApartment) {
-        DropdownHelper.selectUsingVisibleText(homePage.movingNameDropDown, myApartment);
+    public void user_should_choose_value_in_what_are_you_moving_field(String myHouse) {
+        SelectRandom.selectUsingVisibleText(homePage.movingNameDropDown, myHouse);
     }
 
 //    @Then("{string} should be selected")
@@ -47,7 +47,7 @@ public class HomPageSteps {
 
     @Given("User should choose {string} value in Move Size field")
     public void user_should_choose_value_in_move_size_field(String size) {
-        DropdownHelper.selectUsingVisibleText(homePage.movingSizeDropDown, size);
+        SelectRandom.selectUsingVisibleText(homePage.movingSizeDropDown, size);
     }
 
 

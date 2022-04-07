@@ -23,6 +23,12 @@ public class FullInventoryPage {
     @FindBy(css = "#hp-nav-select-house >option")
     public int dropDownSize;
 
+    //Type selector
+    @FindBy(className = "itemTypeSelector")
+    public static WebElement typeOption;
+    @FindBy(css = "#itemTypeSelector >option")
+    public static int dropDownCount;
+
     @FindBy(xpath = "/html/body/div/div/div/div[1]/main/div/div[1]/section/div[2]/div/div[1]/div/div/figure/div[2]/div[4]/div")
     public WebElement addToInventoryButton;
 
