@@ -8,7 +8,6 @@ import java.util.Locale;
 public class Driver {
 
     private Driver(){
-        //Singleton pattern
     }
 
     private static WebDriver driver;

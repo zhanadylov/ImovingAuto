@@ -1,7 +1,6 @@
 package com.imoving.UI.stepDefs;
 
 import com.imoving.UI.dataProviders.ConfigReader;
-import com.imoving.UI.methods.DropdownHelper;
 import com.imoving.UI.methods.Helper;
 import com.imoving.UI.methods.SelectRandom;
 import com.imoving.UI.pageObjects.HomePage;
@@ -11,8 +10,6 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
-
-import java.nio.channels.Selector;
 
 public class HomPageSteps {
     WebDriver driver = Driver.getDriver();

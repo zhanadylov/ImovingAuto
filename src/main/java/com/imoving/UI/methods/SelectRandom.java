@@ -4,14 +4,10 @@ import com.imoving.UI.pageObjects.FullInventoryPage;
 import com.imoving.UI.utils.Driver;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.core.Logger;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
@@ -42,6 +38,7 @@ public class SelectRandom {
         for(int i = 0; i < numberItems; i++) {
             WebElement randomCheckbox = element.get(new Random().nextInt(element.size()));
             if(randomCheckbox == FullInventoryPage.typeOption){
+                logger.info("Choose item type");
                 SelectHomePage(FullInventoryPage.typeOption, FullInventoryPage.dropDownCount);
                 Helper.navigateToElement(randomCheckbox);
                 Helper.click(randomCheckbox);

@@ -81,49 +81,52 @@ public class FullInventorySteps {
     }
     @Then("user should click add to inventory Rug in Dining room")
     public void user_should_click_add_to_inventory_rug_in_dining_room() {
-//        Helper.navigateToElement(BedRoomPage.nightStandPicture);
-        SelectRandom.randomChooseItems(diningRoomPage.elements, 3);
-        Helper.click(diningRoomPage.addDining);
-        Helper.click(diningRoomPage.addInventory);
+//        Helper.navigateToElement(diningRoomPage.allinWEb);
+        SelectRandom.randomChooseItems(diningRoomPage.allBlin, 3);
+//        Helper.click(diningRoomPage.addDining);
+//        Helper.click(diningRoomPage.addDining);
     }
     @Then("user should click add to inventory Bench in Dining room")
     public void user_should_click_add_to_inventory_bench_in_dining_room() {
 //        Helper.navigateToElement(BedRoomPage.mirrorPicture);
 //        SelectRandom.randomChooseItems(diningRoomPage.elements, 2);
 //        Helper.click(diningRoomPage.addBed);
+        SelectRandom.randomChooseItems(diningRoomPage.elements, 3);
+        Helper.click(diningRoomPage.addDining);
+//        Helper.click(diningRoomPage.addInventory);
     }
     @Then("user should click add to inventory Kitchen\\/Dining Chairs in Kitchen room")
     public void user_should_click_add_to_inventory_kitchen_dining_chairs_in_kitchen_room() {
 //        Helper.navigateToElement(BedRoomPage.lampPicture);
-        SelectRandom.randomChooseItems(BedRoomPage.elements, 3);
-        Helper.click(BedRoomPage.addBed);
+//        SelectRandom.randomChooseItems(BedRoomPage.elements, 3);
+//        Helper.click(BedRoomPage.addBed);
     }
     @Then("user should click add to inventory Kitchen\\/Dining Table in Kitchen room")
     public void user_should_click_add_to_inventory_kitchen_dining_table_in_kitchen_room() {
 //        Helper.navigateToElement(BedRoomPage.tvPicture);
-        SelectRandom.randomChooseItems(BedRoomPage.elements, 3);
-        Helper.click(BedRoomPage.addInventory);
+//        SelectRandom.randomChooseItems(BedRoomPage.elements, 3);
+//        Helper.click(BedRoomPage.addInventory);
     }
     @Then("user should click add to inventory Basket\\/Hamper in Bathroom room")
     public void user_should_click_add_to_inventory_basket_hamper_in_bathroom_room() {
 //        Helper.navigateToElement(BedRoomPage.deskPicture);
-        SelectRandom.randomChooseItems(BedRoomPage.elements, 3);
-        Helper.click(BedRoomPage.addInventory);
+//        SelectRandom.randomChooseItems(BedRoomPage.elements, 3);
+//        Helper.click(BedRoomPage.addInventory);
     }
     @Then("user should click add to inventory Trash Can in Bathroom room")
     public void user_should_click_add_to_inventory_trash_can_in_bathroom_room() {
-        SelectRandom.randomChooseItems(BedRoomPage.elements, 3);
-        Helper.click(BedRoomPage.addInventory);
+//        SelectRandom.randomChooseItems(BedRoomPage.elements, 3);
+//        Helper.click(BedRoomPage.addInventory);
     }
     @Then("user should click add to inventory Outdoor Chair in Patio room")
     public void user_should_click_add_to_inventory_outdoor_chair_in_patio_room() {
-        SelectRandom.randomChooseItems(BedRoomPage.elements, 3);
-        Helper.click(BedRoomPage.addInventory);
+//        SelectRandom.randomChooseItems(BedRoomPage.elements, 3);
+//        Helper.click(BedRoomPage.addInventory);
     }
     @Then("user should click add to inventory Outdoors Table in Patio room")
     public void user_should_click_add_to_inventory_outdoors_table_in_patio_room() {
-        SelectRandom.randomChooseItems(BedRoomPage.elements, 3);
-        Helper.click(BedRoomPage.addInventory);
+//        SelectRandom.randomChooseItems(BedRoomPage.elements, 3);
+//        Helper.click(BedRoomPage.addInventory);
     }
     @Then("user should see new pop-up window boxes {string}")
     public void user_should_see_new_pop_up_window_boxes (String string) {
