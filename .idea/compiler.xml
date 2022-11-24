@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="IMOVING" />
         <module name="ImovingAuto" />
+        <module name="iMovingSmokeTest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />

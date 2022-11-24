@@ -13,13 +13,13 @@ public class HomePage {
 
     //For random select MovingTab
     @FindBy(id = "houseTypeSelectList")
-    public WebElement movingOption;
+    public WebElement orderType;
     @FindBy(css = "#houseTypeSelectList >option")
     public int dropDownCount;
 
     //Randomly select size
     @FindBy(id = "hp-nav-select-house")
-    public WebElement movingSizeHouseOption;
+    public WebElement movingSizeOption;
     @FindBy(css = "#hp-nav-select-house >option")
     public int dropDownSize;
 
