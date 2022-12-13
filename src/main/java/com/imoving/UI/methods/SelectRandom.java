@@ -5,11 +5,19 @@ import com.imoving.UI.utils.Driver;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.core.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
+import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.sql.SQLOutput;
 import java.util.Collections;
 import java.util.List;
 import java.util.Random;
@@ -33,8 +41,13 @@ public class SelectRandom {
     public static void SelectHomePage(WebElement element, int cssSelector){
         Select select = new Select(element);
         Random random = new Random();
-        int index = random.nextInt(cssSelector);
-        select.selectByIndex(index);
+        int index = 0;
+            index = random.nextInt(cssSelector);
+        if(index == 0){
+            select.selectByIndex(index);
+        }else{
+            select.selectByIndex(index);
+        }
     }
 
     //Select items randomly
@@ -73,14 +86,30 @@ public class SelectRandom {
         Thread.sleep(5000);
     }
 
-    public void test(){
-//        List<WebElement> allItems = fullInventoryPage.categories.findElements(By.className("hidden-xs hidden-sm"));
-        List<WebElement> allItems = driver.findElements(By.xpath("//ul[@class='dropdown-menu']"));
-        int counter = 0;
-        for(WebElement selectLi: allItems)
-        {
-            String name = selectLi.getText();
-            System.out.println(Helper.color("cyan")+"Test list: "+name+Helper.color("reset"));
+    public void test(List<WebElement> picture, WebElement btn){
+        Random random = new Random();
+        int chooseRandom = random.nextInt(picture.size());
+        WebElement res = picture.get(chooseRandom);
+        Helper.pause(3000);
+        Helper.navigateToElement(res);
+//        Helper.pause(3000);
+//        Helper.click(btn);
+//        for (int i= 0;i < picture.size(); i++) {
+//        }
+//        System.out.println(Helper.color("cyan")+rand+Helper.color("reset"));
+    }
+
+    public void savePhoto(List<WebElement> picture) throws IOException {
+        int count = 1;
+        for (WebElement element : picture) {
+            String src = element.getAttribute("src");
+            System.out.println(src);
+            URL imageURL = new URL(src);
+            //read image from given web URL
+            BufferedImage savelmage = ImageIO.read(imageURL);
+            //writing the image on disk
+            ImageIO.write(savelmage, "jpg", new File(count + ".jpg"));
+            count++;
         }
     }
 }

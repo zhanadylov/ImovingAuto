@@ -1,40 +1,36 @@
-[INFO ] 2022-11-01 17:25:05.031 [main] Helper - I am trying to click element [[ChromeDriver: chrome on WINDOWS (8db25743cb0476813f317e180ccc5272)] -> xpath: //*[@id="roomsForm"]/div[3]/button]
-[DEBUG] 2022-11-01 17:25:05.039 [main] Helper - Waiting for element to be displayed [[ChromeDriver: chrome on WINDOWS (8db25743cb0476813f317e180ccc5272)] -> xpath: //*[@id="roomsForm"]/div[3]/button]
-[INFO ] 2022-11-01 17:25:05.069 [main] Helper - Waiting for element to be clickable 
-[INFO ] 2022-11-01 17:25:10.599 [main] Helper - Element is clicked
-[INFO ] 2022-11-01 17:25:10.599 [main] Helper - Pausing the system for 8000
-[DEBUG] 2022-11-01 17:25:10.599 [main] Helper - Trying pause the system 
-[DEBUG] 2022-11-01 17:25:28.733 [main] Helper - Waiting for element to be displayed [[ChromeDriver: chrome on WINDOWS (8db25743cb0476813f317e180ccc5272)] -> xpath: /html/body/div[1]/div/div/div/div[1]/h2/span[1]]
-[INFO ] 2022-11-01 17:25:28.780 [main] Helper - I am trying to click element [[ChromeDriver: chrome on WINDOWS (8db25743cb0476813f317e180ccc5272)] -> xpath: /html/body/div[1]/div/div/div/div[2]/div/a[2]]
-[DEBUG] 2022-11-01 17:25:28.786 [main] Helper - Waiting for element to be displayed [[ChromeDriver: chrome on WINDOWS (8db25743cb0476813f317e180ccc5272)] -> xpath: /html/body/div[1]/div/div/div/div[2]/div/a[2]]
-[INFO ] 2022-11-01 17:25:28.801 [main] Helper - Waiting for element to be clickable 
-[INFO ] 2022-11-01 17:25:29.015 [main] Helper - Element is clicked
-[DEBUG] 2022-11-01 17:25:29.028 [main] Helper - Waiting for element to be displayed [[ChromeDriver: chrome on WINDOWS (8db25743cb0476813f317e180ccc5272)] -> xpath: /html/body/div[1]/div/div/div/div[1]/div/span]
-[INFO ] 2022-11-01 17:25:29.079 [main] Helper - I am trying to click element [[ChromeDriver: chrome on WINDOWS (8db25743cb0476813f317e180ccc5272)] -> xpath: /html/body/div[1]/div/div/div/div[2]/div/a]
-[DEBUG] 2022-11-01 17:25:29.087 [main] Helper - Waiting for element to be displayed [[ChromeDriver: chrome on WINDOWS (8db25743cb0476813f317e180ccc5272)] -> xpath: /html/body/div[1]/div/div/div/div[2]/div/a]
-[INFO ] 2022-11-01 17:25:29.106 [main] Helper - Waiting for element to be clickable 
-[INFO ] 2022-11-01 17:25:29.308 [main] Helper - Element is clicked
-[DEBUG] 2022-11-01 17:25:29.321 [main] Helper - Waiting for element to be displayed [[ChromeDriver: chrome on WINDOWS (8db25743cb0476813f317e180ccc5272)] -> xpath: /html/body/div/div/div/div[1]/section[1]/div/p[1]]
-[DEBUG] 2022-11-01 17:25:29.346 [main] Helper - Waiting for element to be displayed [[ChromeDriver: chrome on WINDOWS (8db25743cb0476813f317e180ccc5272)] -> xpath: /html/body/div/div/div/div[1]/section[1]/div/p[1]]
-[INFO ] 2022-11-01 17:25:29.391 [main] Helper - I am trying to click element [[ChromeDriver: chrome on WINDOWS (8db25743cb0476813f317e180ccc5272)] -> xpath: //*[@id="nextInventoryTutorial"]]
-[DEBUG] 2022-11-01 17:25:29.397 [main] Helper - Waiting for element to be displayed [[ChromeDriver: chrome on WINDOWS (8db25743cb0476813f317e180ccc5272)] -> xpath: //*[@id="nextInventoryTutorial"]]
-[INFO ] 2022-11-01 17:25:29.417 [main] Helper - Waiting for element to be clickable 
-[INFO ] 2022-11-01 17:25:29.639 [main] Helper - Element is clicked
-[INFO ] 2022-11-01 17:25:29.927 [main] Helper - I am trying to click element [[ChromeDriver: chrome on WINDOWS (8db25743cb0476813f317e180ccc5272)] -> xpath: //*[@id="nextNextRoomTutorial"]]
-[DEBUG] 2022-11-01 17:25:29.935 [main] Helper - Waiting for element to be displayed [[ChromeDriver: chrome on WINDOWS (8db25743cb0476813f317e180ccc5272)] -> xpath: //*[@id="nextNextRoomTutorial"]]
-[INFO ] 2022-11-01 17:25:29.950 [main] Helper - Waiting for element to be clickable 
-[INFO ] 2022-11-01 17:25:30.137 [main] Helper - Element is clicked
-[DEBUG] 2022-11-01 17:25:30.144 [main] Helper - Waiting for element to be displayed [[ChromeDriver: chrome on WINDOWS (8db25743cb0476813f317e180ccc5272)] -> xpath: /html/body/div/div/div/div[1]/section[3]/div/p[1]]
-[DEBUG] 2022-11-01 17:25:30.158 [main] Helper - Waiting for element to be displayed [[ChromeDriver: chrome on WINDOWS (8db25743cb0476813f317e180ccc5272)] -> xpath: /html/body/div/div/div/div[1]/section[3]/div/p[1]]
-[INFO ] 2022-11-01 17:25:30.185 [main] Helper - I am trying to click element [[ChromeDriver: chrome on WINDOWS (8db25743cb0476813f317e180ccc5272)] -> id: closeTutorial2]
-[DEBUG] 2022-11-01 17:25:30.188 [main] Helper - Waiting for element to be displayed [[ChromeDriver: chrome on WINDOWS (8db25743cb0476813f317e180ccc5272)] -> id: closeTutorial2]
-[INFO ] 2022-11-01 17:25:30.197 [main] Helper - Waiting for element to be clickable 
-[INFO ] 2022-11-01 17:25:30.364 [main] Helper - Element is clicked
-[INFO ] 2022-11-01 17:25:30.391 [main] Helper - I am trying to click element [[ChromeDriver: chrome on WINDOWS (8db25743cb0476813f317e180ccc5272)] -> xpath: /html/body/div/div/div/div[1]/div[3]/div[1]/button]
-[DEBUG] 2022-11-01 17:25:30.395 [main] Helper - Waiting for element to be displayed [[ChromeDriver: chrome on WINDOWS (8db25743cb0476813f317e180ccc5272)] -> xpath: /html/body/div/div/div/div[1]/div[3]/div[1]/button]
-[INFO ] 2022-11-01 17:25:30.407 [main] Helper - Waiting for element to be clickable 
-[INFO ] 2022-11-01 17:25:30.723 [main] Helper - Element is clicked
-[INFO ] 2022-11-01 17:25:30.731 [main] Helper - I am trying to click element [[ChromeDriver: chrome on WINDOWS (8db25743cb0476813f317e180ccc5272)] -> xpath: /html/body/div/div/div/div[1]/div[3]/div[1]/button]
-[DEBUG] 2022-11-01 17:25:30.737 [main] Helper - Waiting for element to be displayed [[ChromeDriver: chrome on WINDOWS (8db25743cb0476813f317e180ccc5272)] -> xpath: /html/body/div/div/div/div[1]/div[3]/div[1]/button]
-[INFO ] 2022-11-01 17:25:30.751 [main] Helper - Waiting for element to be clickable 
-[INFO ] 2022-11-01 17:25:30.980 [main] Helper - Element is clicked
+[INFO ] 2022-11-30 16:13:57.404 [main] Helper - I am trying to click element [[ChromeDriver: chrome on WINDOWS (9a0691dfe835df0da33770818a3cffcc)] -> xpath: //*[@id="roomsForm"]/div[3]/button]
+[DEBUG] 2022-11-30 16:13:57.409 [main] Helper - Waiting for element to be displayed [[ChromeDriver: chrome on WINDOWS (9a0691dfe835df0da33770818a3cffcc)] -> xpath: //*[@id="roomsForm"]/div[3]/button]
+[INFO ] 2022-11-30 16:13:57.426 [main] Helper - Waiting for element to be clickable 
+[INFO ] 2022-11-30 16:14:07.886 [main] Helper - Element is clicked
+[INFO ] 2022-11-30 16:14:07.886 [main] Helper - Pausing the system for 8000
+[DEBUG] 2022-11-30 16:14:07.887 [main] Helper - Trying pause the system 
+[DEBUG] 2022-11-30 16:14:25.959 [main] Helper - Waiting for element to be displayed [[ChromeDriver: chrome on WINDOWS (9a0691dfe835df0da33770818a3cffcc)] -> xpath: /html/body/div[1]/div/div/div/div[1]/h2/span[1]]
+[INFO ] 2022-11-30 16:14:25.992 [main] Helper - I am trying to click element [[ChromeDriver: chrome on WINDOWS (9a0691dfe835df0da33770818a3cffcc)] -> xpath: /html/body/div[1]/div/div/div/div[2]/div/a[2]]
+[DEBUG] 2022-11-30 16:14:25.997 [main] Helper - Waiting for element to be displayed [[ChromeDriver: chrome on WINDOWS (9a0691dfe835df0da33770818a3cffcc)] -> xpath: /html/body/div[1]/div/div/div/div[2]/div/a[2]]
+[INFO ] 2022-11-30 16:14:26.009 [main] Helper - Waiting for element to be clickable 
+[INFO ] 2022-11-30 16:14:26.182 [main] Helper - Element is clicked
+[DEBUG] 2022-11-30 16:14:26.190 [main] Helper - Waiting for element to be displayed [[ChromeDriver: chrome on WINDOWS (9a0691dfe835df0da33770818a3cffcc)] -> xpath: /html/body/div[1]/div/div/div/div[1]/div/span]
+[INFO ] 2022-11-30 16:14:26.226 [main] Helper - I am trying to click element [[ChromeDriver: chrome on WINDOWS (9a0691dfe835df0da33770818a3cffcc)] -> xpath: /html/body/div[1]/div/div/div/div[2]/div/a]
+[DEBUG] 2022-11-30 16:14:26.232 [main] Helper - Waiting for element to be displayed [[ChromeDriver: chrome on WINDOWS (9a0691dfe835df0da33770818a3cffcc)] -> xpath: /html/body/div[1]/div/div/div/div[2]/div/a]
+[INFO ] 2022-11-30 16:14:26.244 [main] Helper - Waiting for element to be clickable 
+[INFO ] 2022-11-30 16:14:26.437 [main] Helper - Element is clicked
+[DEBUG] 2022-11-30 16:14:26.446 [main] Helper - Waiting for element to be displayed [[ChromeDriver: chrome on WINDOWS (9a0691dfe835df0da33770818a3cffcc)] -> xpath: /html/body/div/div/div/div[1]/section[1]/div/p[1]]
+[DEBUG] 2022-11-30 16:14:26.539 [main] Helper - Waiting for element to be displayed [[ChromeDriver: chrome on WINDOWS (9a0691dfe835df0da33770818a3cffcc)] -> xpath: /html/body/div/div/div/div[1]/section[1]/div/p[1]]
+[INFO ] 2022-11-30 16:14:26.572 [main] Helper - I am trying to click element [[ChromeDriver: chrome on WINDOWS (9a0691dfe835df0da33770818a3cffcc)] -> xpath: //*[@id="nextInventoryTutorial"]]
+[DEBUG] 2022-11-30 16:14:26.577 [main] Helper - Waiting for element to be displayed [[ChromeDriver: chrome on WINDOWS (9a0691dfe835df0da33770818a3cffcc)] -> xpath: //*[@id="nextInventoryTutorial"]]
+[INFO ] 2022-11-30 16:14:26.621 [main] Helper - Waiting for element to be clickable 
+[INFO ] 2022-11-30 16:14:26.805 [main] Helper - Element is clicked
+[INFO ] 2022-11-30 16:14:26.815 [main] Helper - I am trying to click element [[ChromeDriver: chrome on WINDOWS (9a0691dfe835df0da33770818a3cffcc)] -> xpath: //*[@id="nextNextRoomTutorial"]]
+[DEBUG] 2022-11-30 16:14:26.820 [main] Helper - Waiting for element to be displayed [[ChromeDriver: chrome on WINDOWS (9a0691dfe835df0da33770818a3cffcc)] -> xpath: //*[@id="nextNextRoomTutorial"]]
+[INFO ] 2022-11-30 16:14:26.832 [main] Helper - Waiting for element to be clickable 
+[INFO ] 2022-11-30 16:14:27.009 [main] Helper - Element is clicked
+[DEBUG] 2022-11-30 16:14:27.016 [main] Helper - Waiting for element to be displayed [[ChromeDriver: chrome on WINDOWS (9a0691dfe835df0da33770818a3cffcc)] -> xpath: /html/body/div/div/div/div[1]/section[3]/div/p[1]]
+[DEBUG] 2022-11-30 16:14:27.031 [main] Helper - Waiting for element to be displayed [[ChromeDriver: chrome on WINDOWS (9a0691dfe835df0da33770818a3cffcc)] -> xpath: /html/body/div/div/div/div[1]/section[3]/div/p[1]]
+[INFO ] 2022-11-30 16:14:27.059 [main] Helper - I am trying to click element [[ChromeDriver: chrome on WINDOWS (9a0691dfe835df0da33770818a3cffcc)] -> id: closeTutorial2]
+[DEBUG] 2022-11-30 16:14:27.067 [main] Helper - Waiting for element to be displayed [[ChromeDriver: chrome on WINDOWS (9a0691dfe835df0da33770818a3cffcc)] -> id: closeTutorial2]
+[INFO ] 2022-11-30 16:14:27.078 [main] Helper - Waiting for element to be clickable 
+[INFO ] 2022-11-30 16:14:27.241 [main] Helper - Element is clicked
+[INFO ] 2022-11-30 16:14:27.241 [main] Helper - Pausing the system for 4000
+[DEBUG] 2022-11-30 16:14:27.241 [main] Helper - Trying pause the system 
+[INFO ] 2022-11-30 16:14:31.373 [main] Helper - Pausing the system for 2000
+[DEBUG] 2022-11-30 16:14:31.373 [main] Helper - Trying pause the system 
